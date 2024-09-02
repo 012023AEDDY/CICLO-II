@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="489.0" prefWidth="293.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.calculadora.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+   
+       <Label fx:id="welcomeText" alignment="CENTER_RIGHT" prefHeight="37.0" prefWidth="246.0" text="0" />
+      <TextField fx:id="numUno" />
+      <TextField fx:id="numDos" />
+       <Button onAction="#onHelloButtonClick" prefHeight="26.0" prefWidth="89.0" text="+" />
+      <Button mnemonicParsing="false" onAction="#onrestaclick" prefHeight="26.0" prefWidth="91.0" text="-" />
+      <Button mnemonicParsing="false" onAction="#onMultiplicacion" prefWidth="86.0" text="*" />
+      <Button mnemonicParsing="false" onAction="#onDivision" prefHeight="26.0" prefWidth="90.0" text="/" />
+      <AnchorPane prefHeight="192.0" prefWidth="506.0" />
+   </children>
+</VBox>
